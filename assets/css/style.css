@@ -52,6 +52,7 @@ ul {
   flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 57px;
+  justify-content: space-between;
 }
 
 ul li {
@@ -60,6 +61,7 @@ ul li {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 43px 36px;
   border-radius: 10px;
+  flex-grow: 1;
 }
 
 .icon {
@@ -169,6 +171,7 @@ ul li {
   border: 1px solid #c6cae4;
   padding: 15px 35px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .open-positions-no p:hover {
@@ -200,6 +203,134 @@ main .wrapper > p {
 =================================*/
 
 /*media query starts*/
+/*media query for 1360px starts here*/
+@media only screen and (max-width: 1360px) {
+  .open-positions-no p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 20px 35px;
+  }
+
+  .head-info span:nth-of-type(2) {
+    font-size: 19px;
+  }
+
+  main .wrapper > p {
+    line-height: 1.8;
+  }
+
+  ul li {
+    padding: 35px 30px;
+    flex-basis: 25%;
+  }
+
+  ul {
+    gap: 20px;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+}
+
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    width: 86%;
+  }
+}
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  .head-info span:nth-of-type(2) {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 80px 0;
+  }
+
+  ul {
+    gap: 15px;
+  }
+
+  .open-positions-no p {
+    font-size: 14px;
+    padding: 15px 35px;
+  }
+
+  main .wrapper > p {
+    font-size: 13px;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .open-positions-no p {
+    font-size: 13px;
+    padding: 10px 5px;
+  }
+
+  ul li {
+    flex-basis: 45%;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+  ul li {
+    flex-basis: 50%;
+    /* padding: 35px 120px; */
+  }
+
+  ul {
+    gap: 40px;
+  }
+
+  .wrapper {
+    width: 65%;
+  }
+
+  main .wrapper > p {
+    font-size: 11px;
+    padding: 0;
+    text-align: justify;
+  }
+
+  .container {
+    padding: 60px 0;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+  }
+}
+
+/*media query for 420px starts here*/
+@media only screen and (max-width: 420px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
+
+/*media query for 375px starts here*/
+@media only screen and (max-width: 375px) {
 }

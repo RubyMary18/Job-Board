@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Merriweather", serif;
 }
 
 ul li {
@@ -14,8 +17,8 @@ a {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1350px;
-  width: 86%;
+  /* max-width: 1350px; */
+  width: 66%;
   margin: 0 auto;
 }
 
@@ -30,7 +33,160 @@ a {
 /*=================================
   main styling starts here
 =================================*/
+body {
+  background-color: #f3f6ff;
+}
 
+.container {
+  padding: 190px 0 153px;
+}
+
+h1 {
+  font-size: 28.5px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 57px;
+}
+
+ul li {
+  background-color: #fff;
+  flex-basis: 31%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 43px 36px;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  font-family: "FontAwesome";
+  position: relative;
+  text-indent: -9999px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.icon::before {
+  position: absolute;
+  text-indent: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.design-icon {
+  background: linear-gradient(
+    117deg,
+    rgba(193, 204, 252, 1) 15%,
+    rgba(230, 211, 255, 1) 90%
+  );
+}
+
+.design-icon::before {
+  content: "\f1fc";
+}
+
+.engineering-icon {
+  background: linear-gradient(
+    117deg,
+    rgba(251, 190, 217, 1) 15%,
+    rgba(255, 206, 214, 1) 90%
+  );
+}
+
+.engineering-icon::before {
+  content: "\f1c9";
+}
+
+.operations-icon {
+  background: linear-gradient(
+    117deg,
+    rgba(197, 231, 252, 1) 15%,
+    rgba(230, 218, 255, 1) 90%
+  );
+}
+
+.operations-icon::before {
+  content: "\f013";
+}
+
+.people-icon {
+  background: linear-gradient(
+    117deg,
+    rgba(190, 248, 231, 1) 15%,
+    rgba(206, 232, 249, 1) 90%
+  );
+}
+
+.people-icon::before {
+  content: "\f007";
+}
+
+.sales-icon {
+  background: linear-gradient(
+    117deg,
+    rgba(196, 216, 246, 1) 15%,
+    rgba(240, 214, 222, 1) 90%
+  );
+}
+
+.sales-icon::before {
+  content: "\f016";
+}
+
+.university-icon {
+  background: linear-gradient(
+    117deg,
+    rgba(247, 222, 210, 1) 15%,
+    rgba(222, 218, 244, 1) 90%
+  );
+}
+
+.university-icon::before {
+  content: "\f19d";
+}
+
+.head-info span:nth-of-type(2) {
+  color: #1e2246;
+  font-size: 21px;
+}
+
+.head-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.open-positions-no p {
+  border: 1px solid #c6cae4;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+
+.open-positions-no p:hover {
+  color: #fff;
+  background-color: #1e2246;
+  cursor: pointer;
+}
+
+.head-info {
+  margin-bottom: 30px;
+}
+
+main .wrapper > p {
+  padding: 0 90px;
+  font-size: 14.5px;
+  text-align: center;
+  line-height: 1.5;
+}
 /*=================================
   main styling ends here
 =================================*/

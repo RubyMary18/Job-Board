@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/RubyMary18/Job-Board]
+- Live Site URL: [https://rubymary18.github.io/Job-Board/]
 
 ## My process
 

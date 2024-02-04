@@ -17,7 +17,6 @@ a {
 
 /*for wrapper*/
 .wrapper {
-  /* max-width: 1350px; */
   width: 66%;
   margin: 0 auto;
 }
@@ -294,7 +293,6 @@ main .wrapper > p {
 @media only screen and (max-width: 540px) {
   ul li {
     flex-basis: 50%;
-    /* padding: 35px 120px; */
   }
 
   ul {
@@ -329,8 +327,4 @@ main .wrapper > p {
   h1 {
     font-size: 22px;
   }
-}
-
-/*media query for 375px starts here*/
-@media only screen and (max-width: 375px) {
 }
